@@ -5,11 +5,13 @@ From the original description:
 This is basically a patched version of [https://github.com/mtoyoda/sl](https://github.com/mtoyoda/sl) which compiles on Ubuntu. 
 Was not written by me, but adapted from the sl-patched package for archlinux available [here](https://aur.archlinux.org/packages/sl-patched/). 
 
-## compiling
+## installing
 
-* install libcurses library (libcurses-dev on ubuntu)
+* install libcurses library (package libncurses5-dev on debian and ubuntu)
 * make
 * sudo make install
+
+tested on Ubuntu, archlinux and debian
 
 ## license of unpatched sl
 

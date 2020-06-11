@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/tkw1536/sl-patched.svg?branch=master)](https://travis-ci.com/tkw1536/sl-patched)
+
 From the original description: 
 
 	SL (Steam Locomotive) runs across your terminal when you type "sl" as you meant to type "ls".; patched long version

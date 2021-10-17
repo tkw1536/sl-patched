@@ -161,6 +161,7 @@ int main(int argc, char *argv[])
  signal(SIGINT, end_proc);
 #else
  signal(SIGINT, SIG_IGN);
+ signal(SIGTSTP, SIG_IGN);
  PASSNUM = (int)(drand48() * 20.0) + 10;
  if (drand48() > 0.5) {
   ONEDIREC = 1;
